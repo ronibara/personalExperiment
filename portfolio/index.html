@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <!-- icon for tab -->
         <title> ROHAN </title>
@@ -15,40 +15,86 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
     <body>
-        <!-- navbar, dont forget the space... and both sides of it -->
+        <!-- do a navbar brand and then play with positioning -->
+            <!-- position utilities -->
+            <!-- look at flex utility -->
+            <!-- positioning inspo on scrollspy -->
             <!-- career icons here! -->
-        <nav>
-        
-            <!-- link assets/rohanBaradResume.pdf here -->
+            <!-- figure out p under h1 -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand mb-0 h1" href="#">ROHAN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="about.html">About</a>
+                    <a class="nav-item nav-link" href="projects.html">Work</a>
+                    <a class="nav-item nav-link" href="assets/rohanBaradResume.pdf">Resume</a>
+                    <br/>
+                    <!-- find a pause/ break thing -->
+                    <!-- linkedin, dribble, github -->
+                </div>
+            </div>
         </nav>
         <!-- section for name and picture -->
         <div class="row"> 
-            <div class="col-md-6" id="left"> 
-                <h1> Thank you! </h1>
-                <h4> Hi, I'm Rohan </h4>
-                <!-- make 2 lines and turn ted into a link-open-to-new-tab -->
-                <p> I'm a <mark>product designer</mark>, and<br/> a Co Director @TEDxUofM </p>
+            <div class="col-md-6">
+                <div class="float-md-right">
+                    <!-- look into float right bootstrap utility -->
+                    <!-- spacing bootstrap utility -->
+                    <h1> Heyo! </h1>
+                    <h4> I'm Rohan :) </h4>
+                    <br/>
+                    <!-- make 2 lines and turn ted into a link-open-to-new-tab -->
+                    <p> I'm a <mark>product designer</mark>, and<br/> a Co Director @TEDxUofM </p>
+                </div>
             </div> 
-            <div class="col-md-6" id="right">
-                <img class="face" src="assets/roughPortrait.jpg" width=30%/> 
-                <!-- what about picture with logos?? -->
+            <div class="col-md-6">
+                <div class="float-md-left">
+                    <!-- look into (sizing) width and height bootstrap utilities -->
+                    <img class="face" src="assets/roughPortrait.jpg" width=30%/> 
+                    <!-- what about picture with logos?? -->
+                </div>
             </div>
         </div>
         <!-- section for top projects -->
         <div class="highlights">
             <h1> Favorite Projects </h1>
-            <div class="cards">
-                <p> place cards here place cards here place cards here place cards here place cards here place cards here place cards here place cards here place cards here </p>
-            <!-- make a card for each project -->
-                <!-- have a spot for the main meal  -->
-                <!-- make tags for each card -->
+            <br/>
+            <div class="shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="card-body">
+                    <div class="media">
+                        <img src="assets/shadow.jpg" class="mr-3" alt="..." width=20%>
+                        <div class="media-body">
+                            <h5 class="mt-0">Shadowboxing</h5>
+                            A productivity app inspired by Tim Ferris’s concept of fear-setting, <br/> while also adopting Carl Jung’s symbolic shadow to gamify the mission of overcoming fears to get things done.
+                            <br/> <br/>
+                            <h6><span class="badge badge-secondary">Prototyping</span>  <span class="badge badge-secondary">Adobe XD</span></h6>
+                        </div> 
+                    </div>
+                </div>
             </div>
+            <!-- make a card for each project -->
+              <!-- shadow utility behind cards: <div class="shadow-lg p-3 mb-5 bg-white rounded">Larger shadow</div> -->
+              <!-- look at border utility + properties -->
+              <!-- maybe have actual bootstrap cards for projects -->
+              <!-- or maybe have horizontal card + media object -->
+                <!-- have a spot for the main meal  -->
+                <!-- make tags for each card (bootstrap badges) -->
         </div> 
-        <!-- made by rohan, show off -->
+        <!-- bottom navbar, made by rohan, show off -->
             <!-- social medias icons here! -->
         <div class="bottom">
         
         </div>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>
 
