@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="styles.css">
 
         <!-- google fonts I want -->
-
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
         <!-- Bootstrap CSS --> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -41,9 +41,9 @@
         <!-- section for name and picture -->
         <div class="row"> 
             <div class="col-md-6">
-                <div class="float-md-right">
-                    <!-- look into float right bootstrap utility -->
-                    <!-- spacing bootstrap utility -->
+                <!-- look into float right bootstrap utility -->
+                <!-- spacing bootstrap utility -->
+                <div class="intro">
                     <h1> Heyo! </h1>
                     <h4> I'm Rohan :) </h4>
                     <br/>
@@ -52,16 +52,15 @@
                 </div>
             </div> 
             <div class="col-md-6">
-                <div class="float-md-left">
-                    <!-- look into (sizing) width and height bootstrap utilities -->
-                    <img src="assets/roughPortrait.jpg" width=30%/> 
-                    <!-- what about picture with logos?? -->
-                </div>
+                <!-- look into (sizing) width and height bootstrap utilities -->
+                <img class="face" src="assets/roughPortrait.jpg"/> 
+                <!-- what about picture with logos?? -->
             </div>
         </div>
         <!-- section for top projects -->
         <div class="highlights">
             <h1> Favorite Projects </h1>
+            <br/> <p></p>
             <!-- <div class="card">
                 <div class="container">
                     <img src="assets/boxing.jpg" class="mr-3" alt="..." width=40%>
@@ -71,34 +70,24 @@
             </div>
             <br/>  -->
             <!-- <div class="shadow-md p-3 mb-5 bg-white rounded"> -->
-                <div class="card bg-light border-light">
+                <div class="card shadowboxing bg-light border-light">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-md-6" id="description">
-                                <img src="assets/boxing.jpg" class="mr-3" alt="..." width=40%>
-                                <p>Productivity turned upside down via fear-setting.</p>
-                                <h6> <span class="badge badge-secondary">Prototyping</span>    <span class="badge badge-secondary">UX Design</span>    <span class="badge badge-secondary">Adobe XD</span></h6>
+                            <div class="col-md-6"> 
+                                <div class="description">
+                                    <img class="logo" src="assets/boxing.jpg" class="mr-3" alt="..." width=60%>
+                                    <p>Productivity turned upside down via fear-setting.</p>
+                                    <h5 id="spice"> <span class="badge badge-secondary">UX Design</span> </h5>
+                                    <!-- <h6> <span class="badge badge-secondary">Prototyping</span>  <span class="badge badge-secondary">Adobe XD</span></h6> -->
+                                </div>
                             </div>
-                            <div class="col-md-6" id="wireframe">
-                                <img class="phone" src="assets/shadow.jpg" class="mr-3" alt="..." width=30%>
+                            <div class="col-md-6">
+                                <div class="wireframe">
+                                    <img src="assets/shadow.jpg" class="mr-3" alt="..." width=75%>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="card bg-light border-light">
-                    <div class="card-body">
-                        <div class="media"> 
-                            <img src="assets/shadow.jpg" class="mr-3" alt="..." width=30%>
-                            <div class="media-body">
-                                <img src="assets/boxing.jpg" class="mr-3" alt="..." width=40%>
-                                <br/> <br/> <br/>
-                                <!-- <h5 class="mt-0">Shadowboxing</h5> --> 
-                                Productivity turned upside down via fear-setting.
-                                <br/> <p></p>
-                                <h6> <span class="badge badge-secondary">Prototyping</span>    <span class="badge badge-secondary">UX Design</span>    <span class="badge badge-secondary">Adobe XD</span></h6>
-                            </div> 
-                        </div>
-                    </div>  
+                    </div> 
                 </div>
             <!-- </div>  -->
             <!-- make a card for each project -->
