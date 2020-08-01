@@ -32,6 +32,15 @@
     margin-top: 40px;
     margin-left: 60px;
     margin-right: 60px;
+    background: white;
+}
+
+.navbar-brand.mb-0.h1 {
+    font-size: 26px;
+}
+
+.nav-item {
+    font-size: 16px;
 }
 
 .card {
@@ -41,7 +50,7 @@
     /* border-radius: 50px; */
     /* FIX ME ABOVE, NOT WORKING */
     width: 100%;
-    height: 420px;
+    height: 450px;
     /* background-color: #fafafd;
     border-color: #fafafd; */
 }
@@ -55,8 +64,6 @@
 /* .card-body {
     border-radius: 100px;
 
-} */
-
 .card .media {
     margin-top: 20px;
     padding-bottom: -150px;
@@ -67,18 +74,33 @@
     margin-top: 20px;
 }
 
+} */
+
 
 /* THE SECOND */
 
 .row .col-md-6 .face {
-    position: relative;
-    width: 35%;
+    /* position: relative;
+    padding-left: 40px;
+    width: 35%; */
+    margin-left: 10%;
+    margin-right: 90%; 
+    width: 14em;
+    /* display: flex;
+    align-items: center; */
+    /* margin-bottom: 80%;
+    margin-top: 20%; */
 }
+
 .row .col-md-6 .intro {
-    position: relative;
+    /* position: relative;
     left: 300px;
-    top: 75px;
+    top: 75px; */
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 18em;
 }
+
 .row .col-md-6 .intro h1 {
     font-size: 60px;
 }
@@ -94,9 +116,15 @@
 
 .logo {
     position: relative;
-    left: -14px;
-
+    bottom: 40px;
 }
+
+.gogo {
+    position: relative;
+    bottom: 30px;
+    right: 15px;
+}
+
 
 .description {
     position: relative;
@@ -105,11 +133,28 @@
     left: 60px;
 }
 
+.description p {
+    font-size: 18px;
+}
 
 .wireframe {
     position: relative;
-    bottom: 80px;
-    left: 75px;
+    bottom: 75px;
+    /* CHANGE FOR FULL SCREEN! */
+    left: 85px;
+}
+
+#game {
+    position: relative;
+    bottom: 24px;
+    right: 9px;
+    
+}
+
+#bet {
+    position: relative;
+    bottom: -13px;
+    
 }
 
 /* .phone {
@@ -128,6 +173,25 @@ FIX ME, PUT SHADOW BEHIND IMAGE */
 #spice .badge.badge-secondary {
     background-color: #d81e5b;
 }
+
+#rice .badge.badge-secondary {
+    background-color: #0058FF;
+}
+
+#lice .badge.badge-secondary {
+    background-color: #4EAB5E;
+}
+
+#new {
+    border-radius: 20px;
+}
+
+/* #new:hover {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d81e5b;
+} 
+FIX ME */
 
 /* .badge {
     padding: 2px;
